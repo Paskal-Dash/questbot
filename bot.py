@@ -1,9 +1,7 @@
-#Bot's token: 1049518862:AAF05gg_kcyOadGX9t8Tm_1fzPsM81mL-go
-
 import telebot
 
 
-bot = telebot.TeleBot('1049518862:AAF05gg_kcyOadGX9t8Tm_1fzPsM81mL-go')
+bot = telebot.TeleBot('<API-KEY>')
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
